@@ -22,8 +22,13 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="/profile">
-                <i className="fas fa-user"></i> Profile
+              <a href="/Diet">
+                <i className="fas fa-user"></i> Diet
+              </a>
+            </li>
+            <li>
+              <a href="/Workout">
+                <i className="fas fa-user"></i> Workout
               </a>
             </li>
           </ul>
@@ -33,7 +38,6 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/form" element={<FormPage />} />
-            <Route path="/profile" element={<ProfilePage />} />
           </Routes>
         </div>
       </div>

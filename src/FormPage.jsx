@@ -12,48 +12,29 @@ const FormPage = () => {
   };
 
   return (
-    <div className="form-page">
-      <h1>Fill out your details</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Name: </label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Enter your name"
-          />
-        </div>
-        <div>
-          <label>Age: </label>
-          <input
-            type="number"
-            value={age}
-            onChange={(e) => setAge(e.target.value)}
-            placeholder="Enter your age"
-          />
-        </div>
-        <div>
-          <label>Weight (kg): </label>
-          <input
-            type="number"
-            value={weight}
-            onChange={(e) => setWeight(e.target.value)}
-            placeholder="Enter your weight"
-          />
-        </div>
-        <div>
-          <label>Height (cm): </label>
-          <input
-            type="number"
-            value={height}
-            onChange={(e) => setHeight(e.target.value)}
-            placeholder="Enter your height"
-          />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+   <>
+   <div>
+    <div>
+    <label>Name:</label>
+    <input type="text" />
     </div>
+    <div>
+    <label>Age:</label>
+    <input type="number" />
+    </div>
+    <div>
+    <label>Weight:</label>
+    <input type="number" />
+    </div>
+    <div>
+    <label>Height:</label>
+    <input type="number" />
+    </div>
+    <div>
+    <button type="submit">Submit</button>
+    </div>
+   </div>
+   </>
   );
 };
 
