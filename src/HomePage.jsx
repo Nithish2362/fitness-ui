@@ -11,6 +11,7 @@ const HomePage = () => {
         <h2>BMR :</h2>
         <h2>BMI:</h2>
         <h2> new added</h2>
+        <h2> rajesh </h2>
         <h2>YOUR GOALNew2:</h2>
       </div>
     </div>
