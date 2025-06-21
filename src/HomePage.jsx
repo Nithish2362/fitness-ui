@@ -10,7 +10,7 @@ const HomePage = () => {
         <p>YOUR BMR & BMI FROM UR SUBMITTED FORM</p>
         <h2>BMR :</h2>
         <h2>BMI:</h2>
-        <h2>YOUR GOAL:</h2>
+        <h2>YOUR GOAL from new :</h2>
       </div>
     </div>
   );
